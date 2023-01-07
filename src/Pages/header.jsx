@@ -10,7 +10,7 @@ class Header extends Component {
       this.setState({searchTerm: e.target.value})
     }
 
-    handleKeyPress= e => {
+    handleKeyPress = e => { 
         
     }
   render() {
