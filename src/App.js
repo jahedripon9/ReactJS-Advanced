@@ -4,6 +4,7 @@ import Header from "./Pages/header";
 import { newsCategory } from "./news";
 import NewsList from "./Pages/newsList/newsList";
 import Pagination from "./Pages/pagination/pagination";
+import Loading from "./Pages/Loading/Loading";
 
 const fakeNews = [
   {
@@ -46,6 +47,7 @@ class App extends React.Component {
             </div>
             <NewsList news={fakeNews} />
             <Pagination />
+            <Loading />
           </div>
         </div>
       </div>
